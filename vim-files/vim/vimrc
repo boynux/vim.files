@@ -224,6 +224,9 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 " Snipmate using bellow VIM's default keys, just unmap it.
 " autocmd VimEnter * unmap! <C-i>
 
+" open new files in separate tab
+:au BufAdd,BufNewFile * nested tab sball
 
+let &colorcolumn=join(range(121,999),",")
 " =========== END Plugin Settings =========="
 "
