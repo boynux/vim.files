@@ -227,6 +227,8 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 " open new files in separate tab
 :au BufAdd,BufNewFile * nested tab sball
 
-let &colorcolumn=join(range(121,999),",")
+highlight ColorColumn ctermbg=254
+" let &colorcolumn=join(range(121,999),",")
+let &colorcolumn="80,".join(range(120,999),",")
 " =========== END Plugin Settings =========="
 "
