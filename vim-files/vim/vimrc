@@ -58,7 +58,7 @@ set pastetoggle=<F3>
 set backupskip=/tmp/*,/private/tmp/*"
 
 " Enable Mouse
-set mouse=a
+" set mouse=a
 
 "Settings for Searching and Moving
 nnoremap / /\v
@@ -227,7 +227,7 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 " open new files in separate tab
 :au BufAdd,BufNewFile * nested tab sball
 
-highlight ColorColumn ctermbg=254
+highlight ColorColumn ctermbg=230
 " let &colorcolumn=join(range(121,999),",")
 let &colorcolumn="80,".join(range(120,999),",")
 " =========== END Plugin Settings =========="
