@@ -225,7 +225,7 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 " autocmd VimEnter * unmap! <C-i>
 
 " open new files in separate tab
-:au BufAdd,BufNewFile * nested tab sball
+" :au BufAdd,BufNewFile * nested tab sball
 
 highlight ColorColumn ctermbg=230
 " let &colorcolumn=join(range(121,999),",")
